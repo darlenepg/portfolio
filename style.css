@@ -37,8 +37,8 @@ nav {
 nav a {
   margin: 0.5rem 1.2rem;
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  color: #0d6efd;
+  font-weight: 700;
   position: relative;
   transition: color 0.3s ease, transform 0.3s ease;
   font-size: clamp(0.9rem, 2.5vw, 1rem);
@@ -108,6 +108,7 @@ header::after {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   animation: scaleIn 1.5s ease;
 }
+
 
 .hero-content h1 {
   font-size: clamp(2rem, 6vw, 3.5rem);
@@ -314,5 +315,39 @@ footer {
     font-size: 1rem;
   }
 }
+
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* small space between icons */
+  margin-top: 1rem;
+}
+
+.icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.9); /* semi-transparent */
+  color: #333; /* icon color */
+  border-radius: 50%; /* circle shape */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.icon-circle:hover {
+  transform: scale(1.2);
+  background: #38f9d7; /* teal hover */
+  color: #fff; /* icon turns white */
+}
+
+.icon-circle svg {
+  width: 24px;
+  height: 24px;
+}
+
+
 
 
