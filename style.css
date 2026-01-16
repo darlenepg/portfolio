@@ -99,8 +99,8 @@ header::after {
 }
 
 .hero-content img {
-  width: clamp(120px, 20vw, 160px);
-  height: clamp(120px, 20vw, 160px);
+  width: clamp(180px, 25vw, 250px);  /* increased from 120-160px */
+  height: clamp(180px, 25vw, 250px); /* increased from 120-160px */
   border-radius: 50%;
   border: 4px solid #fff;
   object-fit: cover;
@@ -314,3 +314,4 @@ footer {
     font-size: 1rem;
   }
 }
+
