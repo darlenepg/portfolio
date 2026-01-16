@@ -313,6 +313,21 @@ footer {
 }
 
 
+/* Card color variations (pastel & transparent) */
+.card.yellow {
+  background: rgba(255, 243, 205, 0.85); /* soft yellow */
+}
+
+.card.pink {
+  background: rgba(255, 228, 235, 0.85); /* light pink */
+}
+
+.card.green {
+  background: rgba(225, 245, 234, 0.85); /* light green */
+}
+
+
+
 
 
 
